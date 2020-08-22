@@ -1,0 +1,33 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-empty": true,
+        "no-console": false,
+        "space-within-parens": true,
+        "semicolon": true,
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-operator",
+            "check-decl",
+            "check-preblock",
+            "check-type-operator",
+            "check-module"
+        ],
+        "interface-name": true,
+        "quotemark": [
+            true,
+            "double",
+            "avoid-escape"
+        ],
+        "class-name": true,
+        "max-classes-per-file": false,
+        "forin": false,
+        "no-angle-bracket-type-assertion": false
+    },
+    "rulesDirectory": []
+}
